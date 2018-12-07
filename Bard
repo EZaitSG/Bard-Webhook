@@ -9,11 +9,11 @@ console.log("Ready!");
 });
 
 client.on("message", (message) => {
-if (message.content.startsWith(prefix+"bienvenida")){
+if (message.content.startsWith(prefix+"Zd")){
     message.channel.send("XD")
 }
 if (message.content.startsWith(prefix+"bienvenida")){
 hook.send("Bienvenido aventurero");
 });
 
-client.login("YOUR_TOKEN")
+client.login("85LkUxzAAqYNFzuXtrLNyp13B0Js0taDBFLj03f7zvU7I6uqiIqJPxHFXJM-mynjhJ3H")
