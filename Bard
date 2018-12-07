@@ -10,8 +10,10 @@ console.log("Ready!");
 
 client.on("message", (message) => {
 if (message.content.startsWith(prefix+"bienvenida")){
-    message.channel.send("Bienvenido aventurero, por favor pase y espere a los demas, dentro de poco comenzara la aventura")
+    message.channel.send("XD")
 }
+if (message.content.startsWith(prefix+"bienvenida")){
+hook.send("Bienvenido aventurero");
 });
 
 client.login("YOUR_TOKEN")
