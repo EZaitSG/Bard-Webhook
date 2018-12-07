@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client()
-nst hook = new Discord.WebhookClient("Bard", "Bard")
+const hook = new Discord.WebhookClient("Bard", "Bard")
 
 const prefix = "!";
 
