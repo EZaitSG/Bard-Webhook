@@ -1,0 +1,17 @@
+const Discord = require('discord.js');
+const client = new Discord.Client()
+nst hook = new Discord.WebhookClient("Bard", "Bard")
+
+const prefix = "@";
+
+client.on("ready", () => {
+console.log("Ready!");
+});
+
+client.on("message", (message) => {
+if (message.content.startsWith(prefix+"bienvenida")){
+    message.channel.send("Bienvenido aventurero, por favor pase y espere a los demas, dentro de poco comenzara la aventura")
+}
+});
+
+client.login("YOUR_TOKEN")
