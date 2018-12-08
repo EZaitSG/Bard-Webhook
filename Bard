@@ -1,6 +1,6 @@
 const Discord = require('bard.js');
 const client = new Discord.Client()
-const hook = new Discord.WebhookClient("521004065174454282", "4WKWPJRz9fJmphAKg2LJUwQfjwyLcCjDmxgUVqOapsSbt79O2l5cxcGpphynFaxRar6-")
+const hook = new Discord.WebhookClient("520745094635192360", "NTIwNzQ1MDk0NjM1MTkyMzYw.Du2CIA._SXTWIbEglQDe-gZ6pdgWiw06qI")
 
 const prefix = "!";
 
