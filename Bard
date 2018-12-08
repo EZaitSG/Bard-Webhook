@@ -16,4 +16,4 @@ if (message.content.startsWith(prefix+"bienvenida")){
 hook.send("Bienvenido aventurero");
 });
 
-client.login("NTIwNzQ1MDk0NjM1MTkyMzYw.Du2CIA._SXTWIbEglQDe-gZ6pdgWiw06qI")
+client.login("4WKWPJRz9fJmphAKg2LJUwQfjwyLcCjDmxgUVqOapsSbt79O2l5cxcGpphynFaxRar6-")
