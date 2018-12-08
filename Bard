@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client()
 const hook = new Discord.WebhookClient("521004065174454282", "4WKWPJRz9fJmphAKg2LJUwQfjwyLcCjDmxgUVqOapsSbt79O2l5cxcGpphynFaxRar6-")
 
-const prefix = ".";
+const prefix = "!";
 
 client.on("ready", () => {
 console.log("Ready!");
