@@ -1,0 +1,8 @@
+{
+“name”: “Bard”,
+“version”: “1.0.0”,
+“description”: “Bard role”,
+“main”: “bard.js”,
+“author”: “EliasEM12”,
+“dependencies”: {}
+}
